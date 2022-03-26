@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back{
+    background: linear-gradient(rgba(79, 70, 229, 0.3),rgba(250, 245, 245, 0.3)), url('./Layouts/background.jpg');
+    height: 100vh;
+    width: 100%;
+}
+
+.back-1 {
+    background: linear-gradient(rgba(79, 70, 229, 0.2),rgba(250, 245, 245, 0.3)) rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.quest{
+    transition-duration: 0.8s;
+}
+
+.quest:hover{
+    transition-duration: 0.8s;
+    transform: scale(1.1);
+}
+
+.a-hovered:hover{
+    color: rgb(79 70 229);
+}
+
+.chatButt{
+    color: #4f46e5 !important;
+    border-color: #4f46e5 !important;
+    transition-duration: 0.8s;
+  
+}
+.chatButt:hover{
+      color: white !important;
+      border-color: white !important;
+      background-color: #4f46e5 !important;
+      transition-duration: 0.8s;
+    }
+  
+    .chatButt:focus{
+      border-color: #4f46e5 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #4f46e5 !important;
+    outline: 0 none !important;
+    }
+  
+  
+  
+
+  .react-chatbot-kit-chat-bot-message {
+    background-color: #4f46e5 !important;
+  
+  }
+  
+  .react-chatbot-kit-chat-bot-message-arrow {
+    color: #4f46e5;
+    border-right: 8px solid #4f46e5;
+  }
+  
+  .react-chatbot-kit-chat-btn-send {
+    background-color: #4f46e5;
+  }
+  
+  
+  .react-chatbot-kit-user-avatar-container {
+    background-color: #4f46e5;
+  
+  }
+  
+  .options-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .option-button {
+    margin: 5px;
+    border-radius: 25px;
+    padding: 8px;
+    border-color: #4f46e5;
+    background: transparent;
+    text-align: center;
+  }
+  .flashcard-container {
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #f1e6e6;
+  }
+  
+  .flashcard-button {
+    background: transparent;
+    padding: 8px;
+    border-radius: 3px;
+    border-color: #4f46e5;
+    margin: 5px;
+    width: 150px;
+  }
+  
+  .react-chatbot-kit-chat-btn-send {
+    background-color: #4f46e5 !important;
+    width: 100px !important;
+    padding-left: 30px !important;
+    border: none;
+    color: #4f46e5 !important;
+    border-bottom-right-radius: 5px;
+}
+
+.bg-loader {
+  background: linear-gradient(rgba(79, 70, 229, 0.2),rgba(250, 245, 245, 0.3)) rgba(255,255,255,0.5);
+    width: 100%;
+    height: 100vh;
+    display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
