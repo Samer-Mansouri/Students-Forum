@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "les salutations",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "How are you",
+        "Someone is here?",
+        "Good morning",
+        "Bonne journée"
+        
+      ],
+      "responses": [
+        "Hi",
+        "Hi, thank you for visiting us",
+        "Hello, how can i help you?",
+        "Hello dear"
+      ]
+    },
+    {
+      "tag":"voice",
+      "patterns":[
+        "What is voice to text app",
+        "how can voice to text app help me",
+        "how can i use your voice to text app"
+      ],
+
+     "responses":[
+      "Our voice to text module can help you to save time while studying, and make it easier to you to take notes without using your hands",
+      "Our voice  to text app is free"  
+]
+    },
+
+    {
+      "tag":"libary",
+      "patterns":[
+        "how can i use your libary",
+        "your libary is free"
+      
+      ],
+
+     "responses":[
+      "Our libary is free to help students find books on their interests"
+    ]
+    },
+
+
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "Goodbye", "aGood night", "See you later"],
+      "responses": [
+        "Goodbye see you soon !"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "It was incredible", "Merci beaucoup!"],
+      "responses": ["Your welcome", "Welcome", "With pleasure"]
+    },
+   
+    
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+
+    
+
+    
+
+
+    
+  ]
+}
